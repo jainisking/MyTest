@@ -21,14 +21,14 @@
     <physical.inventory.logistics.version>1.0.0.PRD</physical.inventory.logistics.version>
     <httpclient.version>4.5.12</httpclient.version>
     <reporting.version>7.1</reporting.version>
-    <hibernate.version>5.4.20.Final</hibernate.version>
+    <hibernate.version>5.4.24.Final</hibernate.version>
     <jacoco-maven-plugin.version>0.8.5</jacoco-maven-plugin.version>
     <proguard.silent>false</proguard.silent>
     <product-um-api.version>3.0.14.PRD</product-um-api.version>
     <gcm-server.version>1.1.0</gcm-server.version>
     <new.spec.version>${next.final.spec.version}</new.spec.version>
     <commons.unit.version>3.1.3</commons.unit.version>
-    <jsf.version>2.2.2</jsf.version>
+    <jsf.version>2.3.5</jsf.version>
     <jacoco.outputDir>${project.basedir}/../target/site/jacoco-aggregate</jacoco.outputDir>
     <custom.rakuten.femto.version>1.0.2.PRD</custom.rakuten.femto.version>
     <spring.elasticsearch.version>0.3.0</spring.elasticsearch.version>
@@ -38,17 +38,17 @@
     <physical.inventory.core.version>1.0.0.PRD</physical.inventory.core.version>
     <geotools.version>19.2</geotools.version>
     <poi.version>3.15</poi.version>
-    <spec.version.revision></spec.version.revision>
+    <spec.version.revision/>
     <java.version>1.8</java.version>
-    <keycloak.version>8.0.1</keycloak.version>
+    <keycloak.version>11.0.1</keycloak.version>
     <clirr.skip>true</clirr.skip>
     <product-base-plateform-service.version>3.0.14.PRD</product-base-plateform-service.version>
     <clirr-maven-plugin.version>2.8</clirr-maven-plugin.version>
     <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
-    <jersey.version>2.18</jersey.version>
+    <jersey.version>2.33</jersey.version>
     <pentaho-database-model.version>7.1.0.0-12</pentaho-database-model.version>
     <workflow.management.version>1.0.15.PRD</workflow.management.version>
-    <mapper-attachment.version>1.8.0</mapper-attachment.version>
+    <mapper-attachment.version>3.0.0</mapper-attachment.version>
     <next.final.spec.version>2.1</next.final.spec.version>
     <pentaho.library>7.1.0.0-12</pentaho.library>
     <output.dir>target</output.dir>
@@ -93,14 +93,14 @@
     <icr.version>1.0.0.PRD</icr.version>
     <fttx.version>1.0.0.PRD</fttx.version>
     <checkstyle.conf>${project.basedir}/../conf/checkstyle.xml</checkstyle.conf>
-    <solr.version>4.0.0</solr.version>
+    <solr.version>4.7.0</solr.version>
     <product-geo-service.version>3.0.14.PRD</product-geo-service.version>
     <checklist.builder.version>1.0.0.PRD</checklist.builder.version>
     <swagger-annotations.version>1.5.21</swagger-annotations.version>
     <jboss.logging.version>3.4.1.Final</jboss.logging.version>
     <commons-logging.version>1.2</commons-logging.version>
     <commons-configuration.version>1.10</commons-configuration.version>
-    <zip4j.version>2.6.1</zip4j.version>
+    <zip4j.version>2.6.3</zip4j.version>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <joda-time.version>2.10.6</joda-time.version>
     <findbugs.conf>${basedir}/../conf/findbugs-exclude.xml</findbugs.conf>
@@ -128,7 +128,7 @@
     <javapns-jdk16.version>2.4.0</javapns-jdk16.version>
     <sfproduct.util.version>1.0.PRD</sfproduct.util.version>
     <spring-boot.version>2.2.5.RELEASE</spring-boot.version>
-    <activiti.version>6.0.0</activiti.version>
+    <activiti.version>7-201708-EA</activiti.version>
     <phoenix.version>5.0.0.3.0.1.0-187</phoenix.version>
     <physical.inventory.asset.version>1.0.0.PRD</physical.inventory.asset.version>
     <hbase.version>2.0.0.3.0.1.0-187</hbase.version>
@@ -165,7 +165,7 @@
     <commons-csv.version>1.8</commons-csv.version>
     <project.management.local.version>1.0.8.PRD</project.management.local.version>
     <poi-ooxml.version>4.1.2</poi-ooxml.version>
-    <log4j.version>2.10.0</log4j.version>
+    <log4j.version>2.13.2</log4j.version>
     <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
     <spec.version>${last.final.spec.version}</spec.version>
     <httpcore.version>4.4.13</httpcore.version>
@@ -242,12 +242,12 @@
     <dependency>
       <groupId>org.apache.lucene</groupId>
       <artifactId>lucene-queryparser</artifactId>
-      <version>7.0.0</version>
+      <version>7.1.0</version>
     </dependency>
     <dependency>
       <groupId>org.apache.ant</groupId>
       <artifactId>ant</artifactId>
-      <version>1.8.2</version>
+      <version>1.10.9</version>
     </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>
@@ -262,7 +262,7 @@
     <dependency>
       <groupId>org.apache.derby</groupId>
       <artifactId>derby</artifactId>
-      <version>10.11.1.1</version>
+      <version>10.12.1.1</version>
     </dependency>
     <dependency>
       <groupId>org.apache.derby</groupId>
@@ -336,7 +336,7 @@
     <dependency>
       <groupId>org.janusgraph</groupId>
       <artifactId>janusgraph-es</artifactId>
-      <version>0.4.0</version>
+      <version>0.5.0</version>
     </dependency>
     <dependency>
       <groupId>org.janusgraph</groupId>
@@ -352,12 +352,12 @@
     <dependency>
       <groupId>org.janusgraph</groupId>
       <artifactId>janusgraph-lucene</artifactId>
-      <version>0.4.0</version>
+      <version>0.5.0</version>
     </dependency>
     <dependency>
       <groupId>org.janusgraph</groupId>
       <artifactId>janusgraph-core</artifactId>
-      <version>0.4.0</version>
+      <version>0.5.0</version>
       <exclusions>
         <exclusion>
           <artifactId>metrics-core</artifactId>
@@ -383,7 +383,7 @@
     <dependency>
       <groupId>org.apache.tinkerpop</groupId>
       <artifactId>gremlin-core</artifactId>
-      <version>3.4.4</version>
+      <version>3.4.9</version>
     </dependency>
     <dependency>
       <groupId>log4j</groupId>
@@ -408,7 +408,7 @@
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>21.0</version>
+      <version>30.0-android</version>
     </dependency>
     <dependency>
       <groupId>joda-time</groupId>
@@ -455,7 +455,7 @@
     <dependency>
       <groupId>io.jaegertracing</groupId>
       <artifactId>jaeger-client</artifactId>
-      <version>0.35.5</version>
+      <version>1.1.0</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -676,7 +676,7 @@
     <dependency>
       <groupId>org.keycloak</groupId>
       <artifactId>keycloak-spring-boot-starter</artifactId>
-      <version>4.8.2.Final</version>
+      <version>12.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -692,7 +692,7 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
-      <version>2.2.5.RELEASE</version>
+      <version>2.3.0.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -701,7 +701,7 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-jpa</artifactId>
-      <version>2.2.0.RELEASE</version>
+      <version>2.3.0.RELEASE</version>
       <exclusions>
         <exclusion>
           <artifactId>HikariCP</artifactId>
@@ -804,7 +804,7 @@
     <dependency>
       <groupId>org.apache.tomcat.embed</groupId>
       <artifactId>tomcat-embed-core</artifactId>
-      <version>9.0.27</version>
+      <version>9.0.40</version>
     </dependency>
     <dependency>
       <groupId>org.camunda.commons</groupId>
@@ -837,7 +837,7 @@
     <dependency>
       <groupId>org.apache.tomcat</groupId>
       <artifactId>tomcat-jasper</artifactId>
-      <version>9.0.27</version>
+      <version>9.0.31</version>
     </dependency>
     <dependency>
       <groupId>org.aspectj</groupId>
@@ -862,12 +862,12 @@
     <dependency>
       <groupId>io.springfox</groupId>
       <artifactId>springfox-swagger2</artifactId>
-      <version>2.9.2</version>
+      <version>2.10.0</version>
     </dependency>
     <dependency>
       <groupId>org.keycloak</groupId>
       <artifactId>keycloak-core</artifactId>
-      <version>9.0.0</version>
+      <version>11.0.1</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -891,7 +891,7 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-validator</artifactId>
-      <version>5.4.3.Final</version>
+      <version>6.0.19.Final</version>
     </dependency>
     <dependency>
       <groupId>org.hibernate</groupId>
@@ -976,7 +976,7 @@
     <dependency>
       <groupId>org.apache.activemq</groupId>
       <artifactId>activemq-all</artifactId>
-      <version>5.10.0</version>
+      <version>5.15.6</version>
     </dependency>
     <dependency>
       <groupId>org.quartz-scheduler</groupId>
@@ -986,7 +986,7 @@
     <dependency>
       <groupId>org.codehaus.cargo</groupId>
       <artifactId>cargo-core-api-container</artifactId>
-      <version>1.7.9</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>org.codehaus.cargo</groupId>
@@ -996,7 +996,7 @@
     <dependency>
       <groupId>org.elasticsearch</groupId>
       <artifactId>elasticsearch</artifactId>
-      <version>1.6.1</version>
+      <version>6.8.13</version>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
@@ -1006,7 +1006,7 @@
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
-      <version>4.5.10</version>
+      <version>4.5.13</version>
     </dependency>
     <dependency>
       <groupId>org.apache.solr</groupId>
@@ -1021,7 +1021,7 @@
     <dependency>
       <groupId>org.apache.xmlgraphics</groupId>
       <artifactId>batik-anim</artifactId>
-      <version>1.8</version>
+      <version>1.11</version>
     </dependency>
     <dependency>
       <groupId>org.jasypt</groupId>
@@ -1056,7 +1056,7 @@
     <dependency>
       <groupId>org.webjars</groupId>
       <artifactId>swagger-ui</artifactId>
-      <version>3.24.3</version>
+      <version>3.26.1</version>
     </dependency>
     <dependency>
       <groupId>commons-collections</groupId>
@@ -1116,7 +1116,7 @@
     <dependency>
       <groupId>org.reflections</groupId>
       <artifactId>reflections</artifactId>
-      <version>0.9.11</version>
+      <version>0.9.12</version>
     </dependency>
     <dependency>
       <groupId>org.apache.xmlbeans</groupId>
@@ -1226,7 +1226,7 @@
     <dependency>
       <groupId>com.google.zxing</groupId>
       <artifactId>javase</artifactId>
-      <version>3.4.0</version>
+      <version>3.4.1</version>
     </dependency>
     <dependency>
       <groupId>org.jboss.aerogear</groupId>
@@ -1322,7 +1322,7 @@
     <dependency>
       <groupId>org.apache.opennlp</groupId>
       <artifactId>opennlp-tools</artifactId>
-      <version>1.6.0</version>
+      <version>1.8.2</version>
     </dependency>
     <dependency>
       <groupId>commons-math</groupId>
@@ -1332,7 +1332,7 @@
     <dependency>
       <groupId>org.passay</groupId>
       <artifactId>passay</artifactId>
-      <version>1.1.0</version>
+      <version>1.3.0</version>
       <exclusions>
         <exclusion>
           <artifactId>bcprov-jdk15on</artifactId>
@@ -1442,7 +1442,7 @@
     <dependency>
       <groupId>org.opensaml</groupId>
       <artifactId>opensaml</artifactId>
-      <version>2.6.1</version>
+      <version>2.6.4</version>
       <exclusions>
         <exclusion>
           <artifactId>commons-collections</artifactId>
@@ -1488,7 +1488,7 @@
     <dependency>
       <groupId>org.codehaus.cargo</groupId>
       <artifactId>cargo-core-api-generic</artifactId>
-      <version>1.1.3</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>org.httpunit</groupId>
@@ -1529,12 +1529,12 @@
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-firefox-driver</artifactId>
-      <version>2.33.0</version>
+      <version>3.141.59</version>
     </dependency>
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-server</artifactId>
-      <version>2.24.1</version>
+      <version>3.141.59</version>
       <exclusions>
         <exclusion>
           <artifactId>bcprov-jdk15on</artifactId>
@@ -1555,7 +1555,7 @@
     <dependency>
       <groupId>org.owasp.esapi</groupId>
       <artifactId>esapi</artifactId>
-      <version>2.2.0.0</version>
+      <version>2.2.2.0</version>
       <exclusions>
         <exclusion>
           <artifactId>log4j</artifactId>
@@ -1571,7 +1571,7 @@
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis</artifactId>
-      <version>3.2.5</version>
+      <version>3.5.6</version>
     </dependency>
     <dependency>
       <groupId>org.apache.maven</groupId>
@@ -1581,7 +1581,7 @@
     <dependency>
       <groupId>xerces</groupId>
       <artifactId>xercesImpl</artifactId>
-      <version>2.9.1</version>
+      <version>2.12.1</version>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -1607,7 +1607,7 @@
     <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
-      <version>5.14</version>
+      <version>7.3.0</version>
     </dependency>
     <dependency>
       <groupId>net.sf.ehcache</groupId>
@@ -1672,7 +1672,7 @@
     <dependency>
       <groupId>org.apache.xmlgraphics</groupId>
       <artifactId>batik-transcoder</artifactId>
-      <version>1.8</version>
+      <version>1.13</version>
     </dependency>
     <dependency>
       <groupId>org.apache.calcite</groupId>
@@ -1724,7 +1724,7 @@
     <dependency>
       <groupId>org.apache.drill.exec</groupId>
       <artifactId>drill-jdbc</artifactId>
-      <version>1.16.0</version>
+      <version>1.18.0</version>
       <exclusions>
         <exclusion>
           <artifactId>log4j-over-slf4j</artifactId>
@@ -1796,7 +1796,7 @@
     <dependency>
       <groupId>org.apache.xmlgraphics</groupId>
       <artifactId>batik-codec</artifactId>
-      <version>1.11</version>
+      <version>1.13</version>
     </dependency>
     <dependency>
       <groupId>org.apache.phoenix</groupId>
@@ -1863,7 +1863,7 @@
     <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-cas</artifactId>
-      <version>5.2.0.RELEASE</version>
+      <version>5.3.0.RELEASE</version>
       <exclusions>
         <exclusion>
           <artifactId>spring-beans</artifactId>
@@ -1913,7 +1913,7 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-configuration2</artifactId>
-      <version>2.6</version>
+      <version>2.7</version>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -1934,7 +1934,7 @@
     <dependency>
       <groupId>org.apache.pdfbox</groupId>
       <artifactId>pdfbox</artifactId>
-      <version>2.0.17</version>
+      <version>2.0.22</version>
     </dependency>
     <dependency>
       <groupId>xml-apis</groupId>
@@ -1944,7 +1944,7 @@
     <dependency>
       <groupId>commons-jexl</groupId>
       <artifactId>commons-jexl</artifactId>
-      <version>1.1</version>
+      <version>20030307.151331</version>
     </dependency>
     <dependency>
       <groupId>org.ehcache</groupId>
@@ -1964,7 +1964,7 @@
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
       <artifactId>xstream</artifactId>
-      <version>1.4.11.1</version>
+      <version>1.4.15</version>
     </dependency>
     <dependency>
       <groupId>org.dbunit</groupId>
@@ -2393,7 +2393,7 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-aop</artifactId>
-      <version>2.2.0.RELEASE</version>
+      <version>2.3.0.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.hibernate</groupId>
@@ -2452,7 +2452,7 @@
     <dependency>
       <groupId>org.apache.curator</groupId>
       <artifactId>curator-framework</artifactId>
-      <version>4.0.1</version>
+      <version>4.3.0</version>
       <scope>runtime</scope>
       <exclusions>
         <exclusion>
@@ -2469,7 +2469,7 @@
     <dependency>
       <groupId>org.keycloak</groupId>
       <artifactId>keycloak-model-jpa</artifactId>
-      <version>8.0.0</version>
+      <version>12.0.0</version>
       <exclusions>
         <exclusion>
           <artifactId>log4j</artifactId>
@@ -2484,17 +2484,17 @@
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpmime</artifactId>
-      <version>4.5.12</version>
+      <version>4.5.13</version>
     </dependency>
     <dependency>
       <groupId>org.keycloak</groupId>
       <artifactId>keycloak-spring-security-adapter</artifactId>
-      <version>9.0.2</version>
+      <version>12.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.security.extensions</groupId>
       <artifactId>spring-security-saml2-core</artifactId>
-      <version>1.0.9.RELEASE</version>
+      <version>1.0.10.RELEASE</version>
       <exclusions>
         <exclusion>
           <artifactId>velocity-engine-core</artifactId>
@@ -2610,7 +2610,7 @@
     <dependency>
       <groupId>com.github.junrar</groupId>
       <artifactId>junrar</artifactId>
-      <version>0.7</version>
+      <version>1.0.1</version>
     </dependency>
     <dependency>
       <groupId>org.apache.openjpa</groupId>
@@ -2702,7 +2702,7 @@
     <dependency>
       <groupId>org.apache.tika</groupId>
       <artifactId>tika-parsers</artifactId>
-      <version>1.23</version>
+      <version>1.24.1</version>
       <exclusions>
         <exclusion>
           <artifactId>cxf-rt-rs-client</artifactId>
@@ -2930,7 +2930,7 @@
     <dependency>
       <groupId>org.apache.kafka</groupId>
       <artifactId>kafka_2.12</artifactId>
-      <version>0.10.1.1</version>
+      <version>2.1.1</version>
       <scope>compile</scope>
       <exclusions>
         <exclusion>
@@ -2982,7 +2982,7 @@
     <dependency>
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-rt-frontend-jaxws</artifactId>
-      <version>3.3.4</version>
+      <version>3.4.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -3027,7 +3027,7 @@
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-servlet</artifactId>
-      <version>9.4.22.v20191022</version>
+      <version>11.0.0</version>
     </dependency>
     <dependency>
       <groupId>au.com.bytecode</groupId>
@@ -3134,22 +3134,22 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
-      <version>5.2.0.RELEASE</version>
+      <version>5.2.9.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.bouncycastle</groupId>
       <artifactId>bcmail-jdk15on</artifactId>
-      <version>1.60</version>
+      <version>1.61</version>
     </dependency>
     <dependency>
       <groupId>org.bouncycastle</groupId>
       <artifactId>bcpkix-jdk15on</artifactId>
-      <version>1.60</version>
+      <version>1.61</version>
     </dependency>
     <dependency>
       <groupId>org.bouncycastle</groupId>
       <artifactId>bcprov-ext-jdk15on</artifactId>
-      <version>1.60</version>
+      <version>1.61</version>
     </dependency>
     <dependency>
       <groupId>org.codehaus.jackson</groupId>
@@ -3159,7 +3159,7 @@
     <dependency>
       <groupId>io.swagger</groupId>
       <artifactId>swagger-core</artifactId>
-      <version>1.5.22</version>
+      <version>1.6.2</version>
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
@@ -3330,12 +3330,12 @@
     <dependency>
       <groupId>com.fasterxml.jackson.module</groupId>
       <artifactId>jackson-module-scala_2.11</artifactId>
-      <version>2.8.8</version>
+      <version>2.11.0</version>
     </dependency>
     <dependency>
       <groupId>com.crealytics</groupId>
       <artifactId>spark-excel_2.11</artifactId>
-      <version>0.9.17</version>
+      <version>0.13.4</version>
     </dependency>
     <dependency>
       <groupId>org.tensorflow</groupId>
@@ -3527,7 +3527,7 @@
     <dependency>
       <groupId>org.yaml</groupId>
       <artifactId>snakeyaml</artifactId>
-      <version>1.14</version>
+      <version>1.26</version>
     </dependency>
     <dependency>
       <groupId>com.101tec</groupId>
@@ -3589,7 +3589,7 @@
     <dependency>
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-rt-rs-extension-search</artifactId>
-      <version>2.7.2</version>
+      <version>3.3.8</version>
     </dependency>
     <dependency>
       <groupId>org.codehaus.janino</groupId>
@@ -3630,7 +3630,7 @@
     <dependency>
       <groupId>com.twilio.sdk</groupId>
       <artifactId>twilio</artifactId>
-      <version>7.11.0</version>
+      <version>8.5.0</version>
     </dependency>
     <dependency>
       <groupId>dom4j</groupId>
