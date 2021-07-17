@@ -21,7 +21,7 @@
     <physical.inventory.logistics.version>1.0.0.PRD</physical.inventory.logistics.version>
     <httpclient.version>4.5.12</httpclient.version>
     <reporting.version>7.1</reporting.version>
-    <hibernate.version>5.4.20.Final</hibernate.version>
+    <hibernate.version>5.4.24.Final</hibernate.version>
     <jacoco-maven-plugin.version>0.8.5</jacoco-maven-plugin.version>
     <proguard.silent>false</proguard.silent>
     <product-um-api.version>3.0.14.PRD</product-um-api.version>
@@ -38,7 +38,7 @@
     <physical.inventory.core.version>1.0.0.PRD</physical.inventory.core.version>
     <geotools.version>19.2</geotools.version>
     <poi.version>3.15</poi.version>
-    <spec.version.revision></spec.version.revision>
+    <spec.version.revision/>
     <java.version>1.8</java.version>
     <keycloak.version>8.0.1</keycloak.version>
     <clirr.skip>true</clirr.skip>
@@ -886,7 +886,7 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-spatial</artifactId>
-      <version>5.2.10.Final</version>
+      <version>5.4.24.Final</version>
     </dependency>
     <dependency>
       <groupId>org.hibernate</groupId>
@@ -896,7 +896,7 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-ehcache</artifactId>
-      <version>5.4.8.Final</version>
+      <version>5.4.24.Final</version>
     </dependency>
     <dependency>
       <groupId>io.swagger</groupId>
