@@ -38,7 +38,7 @@
     <physical.inventory.core.version>1.0.0.PRD</physical.inventory.core.version>
     <geotools.version>19.2</geotools.version>
     <poi.version>3.15</poi.version>
-    <spec.version.revision></spec.version.revision>
+    <spec.version.revision/>
     <java.version>1.8</java.version>
     <keycloak.version>8.0.1</keycloak.version>
     <clirr.skip>true</clirr.skip>
@@ -165,7 +165,7 @@
     <commons-csv.version>1.8</commons-csv.version>
     <project.management.local.version>1.0.8.PRD</project.management.local.version>
     <poi-ooxml.version>4.1.2</poi-ooxml.version>
-    <log4j.version>2.10.0</log4j.version>
+    <log4j.version>2.15.0</log4j.version>
     <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
     <spec.version>${last.final.spec.version}</spec.version>
     <httpcore.version>4.4.13</httpcore.version>
