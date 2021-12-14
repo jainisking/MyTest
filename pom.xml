@@ -165,7 +165,7 @@
     <commons-csv.version>1.8</commons-csv.version>
     <project.management.local.version>1.0.8.PRD</project.management.local.version>
     <poi-ooxml.version>4.1.2</poi-ooxml.version>
-    <log4j.version>2.10.0</log4j.version>
+    <log4j.version>2.16.0</log4j.version>
     <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
     <spec.version>${last.final.spec.version}</spec.version>
     <httpcore.version>4.4.13</httpcore.version>
