@@ -21,7 +21,7 @@
     <physical.inventory.logistics.version>1.0.0.PRD</physical.inventory.logistics.version>
     <httpclient.version>4.5.12</httpclient.version>
     <reporting.version>7.1</reporting.version>
-    <hibernate.version>5.4.20.Final</hibernate.version>
+    <hibernate.version>5.4.24.Final</hibernate.version>
     <jacoco-maven-plugin.version>0.8.5</jacoco-maven-plugin.version>
     <proguard.silent>false</proguard.silent>
     <product-um-api.version>3.0.14.PRD</product-um-api.version>
