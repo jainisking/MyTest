@@ -38,9 +38,9 @@
     <physical.inventory.core.version>1.0.0.PRD</physical.inventory.core.version>
     <geotools.version>19.2</geotools.version>
     <poi.version>3.15</poi.version>
-    <spec.version.revision></spec.version.revision>
+    <spec.version.revision/>
     <java.version>1.8</java.version>
-    <keycloak.version>8.0.1</keycloak.version>
+    <keycloak.version>13.0.0</keycloak.version>
     <clirr.skip>true</clirr.skip>
     <product-base-plateform-service.version>3.0.14.PRD</product-base-plateform-service.version>
     <clirr-maven-plugin.version>2.8</clirr-maven-plugin.version>
@@ -2469,7 +2469,7 @@
     <dependency>
       <groupId>org.keycloak</groupId>
       <artifactId>keycloak-model-jpa</artifactId>
-      <version>8.0.0</version>
+      <version>13.0.0</version>
       <exclusions>
         <exclusion>
           <artifactId>log4j</artifactId>
