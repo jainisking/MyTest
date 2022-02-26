@@ -100,7 +100,7 @@
     <jboss.logging.version>3.4.1.Final</jboss.logging.version>
     <commons-logging.version>1.2</commons-logging.version>
     <commons-configuration.version>1.10</commons-configuration.version>
-    <zip4j.version>2.6.1</zip4j.version>
+    <zip4j.version>2.9.1</zip4j.version>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <joda-time.version>2.10.6</joda-time.version>
     <findbugs.conf>${basedir}/../conf/findbugs-exclude.xml</findbugs.conf>
