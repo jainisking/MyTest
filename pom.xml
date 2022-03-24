@@ -38,7 +38,7 @@
     <physical.inventory.core.version>1.0.0.PRD</physical.inventory.core.version>
     <geotools.version>19.2</geotools.version>
     <poi.version>3.15</poi.version>
-    <spec.version.revision></spec.version.revision>
+    <spec.version.revision/>
     <java.version>1.8</java.version>
     <keycloak.version>8.0.1</keycloak.version>
     <clirr.skip>true</clirr.skip>
@@ -73,7 +73,7 @@
     <pentaho.reporting.classic-core.version>7.1.0.0-12-R</pentaho.reporting.classic-core.version>
     <rdc.version>1.0.0.PRD</rdc.version>
     <maven.bundle.plugin.version>3.3.0</maven.bundle.plugin.version>
-    <hadoop.version>3.1.1.3.0.1.0-187</hadoop.version>
+    <hadoop.version>3.3.2</hadoop.version>
     <findbugs.skip>false</findbugs.skip>
     <omnicare.revision>1.0</omnicare.revision>
     <maven-dependency-plugin.version>3.1.2</maven-dependency-plugin.version>
@@ -93,7 +93,7 @@
     <icr.version>1.0.0.PRD</icr.version>
     <fttx.version>1.0.0.PRD</fttx.version>
     <checkstyle.conf>${project.basedir}/../conf/checkstyle.xml</checkstyle.conf>
-    <solr.version>4.0.0</solr.version>
+    <solr.version>4.7.0</solr.version>
     <product-geo-service.version>3.0.14.PRD</product-geo-service.version>
     <checklist.builder.version>1.0.0.PRD</checklist.builder.version>
     <swagger-annotations.version>1.5.21</swagger-annotations.version>
@@ -104,7 +104,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <joda-time.version>2.10.6</joda-time.version>
     <findbugs.conf>${basedir}/../conf/findbugs-exclude.xml</findbugs.conf>
-    <spark.version>2.3.1.3.0.1.0-187</spark.version>
+    <spark.version>2.4.6</spark.version>
     <commons-collections.version>3.2.2</commons-collections.version>
     <maven.compiler.plugin.version>3.6.1</maven.compiler.plugin.version>
     <commons-io.version>2.7</commons-io.version>
@@ -129,9 +129,9 @@
     <sfproduct.util.version>1.0.PRD</sfproduct.util.version>
     <spring-boot.version>2.2.5.RELEASE</spring-boot.version>
     <activiti.version>6.0.0</activiti.version>
-    <phoenix.version>5.0.0.3.0.1.0-187</phoenix.version>
+    <phoenix.version>5.1.0</phoenix.version>
     <physical.inventory.asset.version>1.0.0.PRD</physical.inventory.asset.version>
-    <hbase.version>2.0.0.3.0.1.0-187</hbase.version>
+    <hbase.version>2.4.0</hbase.version>
     <tika.version>1.2</tika.version>
     <ha-javamail.version>1.0-beta-1</ha-javamail.version>
     <custom.rakuten.version>1.0.PRD</custom.rakuten.version>
@@ -311,7 +311,7 @@
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-common</artifactId>
-      <version>2.0.0.3.0.1.0-187</version>
+      <version>2.3.0</version>
     </dependency>
     <dependency>
       <groupId>org.apache.hbase.thirdparty</groupId>
@@ -393,7 +393,7 @@
     <dependency>
       <groupId>org.apache.hadoop</groupId>
       <artifactId>hadoop-auth</artifactId>
-      <version>3.1.1.3.0.1.0-187</version>
+      <version>3.3.2</version>
     </dependency>
     <dependency>
       <groupId>com.google.protobuf</groupId>
@@ -2930,7 +2930,7 @@
     <dependency>
       <groupId>org.apache.kafka</groupId>
       <artifactId>kafka_2.12</artifactId>
-      <version>0.10.1.1</version>
+      <version>0.11.0.0</version>
       <scope>compile</scope>
       <exclusions>
         <exclusion>
@@ -3532,7 +3532,7 @@
     <dependency>
       <groupId>com.101tec</groupId>
       <artifactId>zkclient</artifactId>
-      <version>0.10</version>
+      <version>0.11</version>
     </dependency>
     <dependency>
       <groupId>org.jfree</groupId>
