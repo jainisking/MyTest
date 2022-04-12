@@ -38,9 +38,9 @@
     <physical.inventory.core.version>1.0.0.PRD</physical.inventory.core.version>
     <geotools.version>19.2</geotools.version>
     <poi.version>3.15</poi.version>
-    <spec.version.revision></spec.version.revision>
+    <spec.version.revision/>
     <java.version>1.8</java.version>
-    <keycloak.version>8.0.1</keycloak.version>
+    <keycloak.version>14.0.0</keycloak.version>
     <clirr.skip>true</clirr.skip>
     <product-base-plateform-service.version>3.0.14.PRD</product-base-plateform-service.version>
     <clirr-maven-plugin.version>2.8</clirr-maven-plugin.version>
@@ -73,7 +73,7 @@
     <pentaho.reporting.classic-core.version>7.1.0.0-12-R</pentaho.reporting.classic-core.version>
     <rdc.version>1.0.0.PRD</rdc.version>
     <maven.bundle.plugin.version>3.3.0</maven.bundle.plugin.version>
-    <hadoop.version>3.1.1.3.0.1.0-187</hadoop.version>
+    <hadoop.version>3.2.3</hadoop.version>
     <findbugs.skip>false</findbugs.skip>
     <omnicare.revision>1.0</omnicare.revision>
     <maven-dependency-plugin.version>3.1.2</maven-dependency-plugin.version>
@@ -2469,7 +2469,7 @@
     <dependency>
       <groupId>org.keycloak</groupId>
       <artifactId>keycloak-model-jpa</artifactId>
-      <version>8.0.0</version>
+      <version>14.0.0</version>
       <exclusions>
         <exclusion>
           <artifactId>log4j</artifactId>
