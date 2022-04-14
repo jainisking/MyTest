@@ -38,7 +38,7 @@
     <physical.inventory.core.version>1.0.0.PRD</physical.inventory.core.version>
     <geotools.version>19.2</geotools.version>
     <poi.version>3.15</poi.version>
-    <spec.version.revision></spec.version.revision>
+    <spec.version.revision/>
     <java.version>1.8</java.version>
     <keycloak.version>8.0.1</keycloak.version>
     <clirr.skip>true</clirr.skip>
@@ -128,7 +128,7 @@
     <javapns-jdk16.version>2.4.0</javapns-jdk16.version>
     <sfproduct.util.version>1.0.PRD</sfproduct.util.version>
     <spring-boot.version>2.2.5.RELEASE</spring-boot.version>
-    <activiti.version>6.0.0</activiti.version>
+    <activiti.version>7-201708-EA</activiti.version>
     <phoenix.version>5.0.0.3.0.1.0-187</phoenix.version>
     <physical.inventory.asset.version>1.0.0.PRD</physical.inventory.asset.version>
     <hbase.version>2.0.0.3.0.1.0-187</hbase.version>
@@ -2437,7 +2437,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context-support</artifactId>
-      <version>5.2.0.RELEASE</version>
+      <version>5.2.21.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.mindrot</groupId>
