@@ -160,7 +160,7 @@
     <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
     <offline.reporting.version>1.0.1.PRD</offline.reporting.version>
     <last.final.spec.version>2.1</last.final.spec.version>
-    <drools.version>6.5.0.Final</drools.version>
+    <drools.version>7.60.0.Final</drools.version>
     <commons-spatial.version>1.0.6</commons-spatial.version>
     <commons-csv.version>1.8</commons-csv.version>
     <project.management.local.version>1.0.8.PRD</project.management.local.version>
