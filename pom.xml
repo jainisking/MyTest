@@ -38,7 +38,7 @@
     <physical.inventory.core.version>1.0.0.PRD</physical.inventory.core.version>
     <geotools.version>19.2</geotools.version>
     <poi.version>3.15</poi.version>
-    <spec.version.revision></spec.version.revision>
+    <spec.version.revision/>
     <java.version>1.8</java.version>
     <keycloak.version>8.0.1</keycloak.version>
     <clirr.skip>true</clirr.skip>
@@ -455,7 +455,7 @@
     <dependency>
       <groupId>io.jaegertracing</groupId>
       <artifactId>jaeger-client</artifactId>
-      <version>0.35.5</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -3470,7 +3470,7 @@
     <dependency>
       <groupId>org.camunda.bpm.springboot</groupId>
       <artifactId>camunda-bpm-spring-boot-starter</artifactId>
-      <version>3.3.1</version>
+      <version>3.3.5</version>
       <exclusions>
         <exclusion>
           <artifactId>log4j-slf4j-impl</artifactId>
@@ -3503,7 +3503,7 @@
     <dependency>
       <groupId>org.camunda.bpm.springboot</groupId>
       <artifactId>camunda-bpm-spring-boot-starter</artifactId>
-      <version>3.3.1</version>
+      <version>3.3.5</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
