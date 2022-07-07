@@ -28,7 +28,7 @@
     <gcm-server.version>1.1.0</gcm-server.version>
     <new.spec.version>${next.final.spec.version}</new.spec.version>
     <commons.unit.version>3.1.3</commons.unit.version>
-    <jsf.version>2.2.2</jsf.version>
+    <jsf.version>2.2.6</jsf.version>
     <jacoco.outputDir>${project.basedir}/../target/site/jacoco-aggregate</jacoco.outputDir>
     <custom.rakuten.femto.version>1.0.2.PRD</custom.rakuten.femto.version>
     <spring.elasticsearch.version>0.3.0</spring.elasticsearch.version>
