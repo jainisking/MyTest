@@ -73,7 +73,7 @@
     <pentaho.reporting.classic-core.version>7.1.0.0-12-R</pentaho.reporting.classic-core.version>
     <rdc.version>1.0.0.PRD</rdc.version>
     <maven.bundle.plugin.version>3.3.0</maven.bundle.plugin.version>
-    <hadoop.version>3.1.1.3.0.1.0-187</hadoop.version>
+    <hadoop.version>3.2.4</hadoop.version>
     <findbugs.skip>false</findbugs.skip>
     <omnicare.revision>1.0</omnicare.revision>
     <maven-dependency-plugin.version>3.1.2</maven-dependency-plugin.version>
