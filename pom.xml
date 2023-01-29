@@ -38,7 +38,7 @@
     <physical.inventory.core.version>1.0.0.PRD</physical.inventory.core.version>
     <geotools.version>19.2</geotools.version>
     <poi.version>3.15</poi.version>
-    <spec.version.revision></spec.version.revision>
+    <spec.version.revision/>
     <java.version>1.8</java.version>
     <keycloak.version>8.0.1</keycloak.version>
     <clirr.skip>true</clirr.skip>
@@ -100,7 +100,7 @@
     <jboss.logging.version>3.4.1.Final</jboss.logging.version>
     <commons-logging.version>1.2</commons-logging.version>
     <commons-configuration.version>1.10</commons-configuration.version>
-    <zip4j.version>2.6.1</zip4j.version>
+    <zip4j.version>2.11.3</zip4j.version>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <joda-time.version>2.10.6</joda-time.version>
     <findbugs.conf>${basedir}/../conf/findbugs-exclude.xml</findbugs.conf>
