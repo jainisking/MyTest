@@ -38,7 +38,7 @@
     <physical.inventory.core.version>1.0.0.PRD</physical.inventory.core.version>
     <geotools.version>19.2</geotools.version>
     <poi.version>3.15</poi.version>
-    <spec.version.revision></spec.version.revision>
+    <spec.version.revision/>
     <java.version>1.8</java.version>
     <keycloak.version>8.0.1</keycloak.version>
     <clirr.skip>true</clirr.skip>
@@ -2447,7 +2447,7 @@
     <dependency>
       <groupId>org.xerial</groupId>
       <artifactId>sqlite-jdbc</artifactId>
-      <version>3.21.0.1</version>
+      <version>3.41.2.2</version>
     </dependency>
     <dependency>
       <groupId>org.apache.curator</groupId>
