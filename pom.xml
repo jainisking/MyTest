@@ -38,7 +38,7 @@
     <physical.inventory.core.version>1.0.0.PRD</physical.inventory.core.version>
     <geotools.version>19.2</geotools.version>
     <poi.version>3.15</poi.version>
-    <spec.version.revision></spec.version.revision>
+    <spec.version.revision/>
     <java.version>1.8</java.version>
     <keycloak.version>8.0.1</keycloak.version>
     <clirr.skip>true</clirr.skip>
@@ -1155,7 +1155,7 @@
     <dependency>
       <groupId>org.thymeleaf</groupId>
       <artifactId>thymeleaf</artifactId>
-      <version>3.0.11.RELEASE</version>
+      <version>3.1.2.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.opensaml</groupId>
