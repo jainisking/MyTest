@@ -38,7 +38,7 @@
     <physical.inventory.core.version>1.0.0.PRD</physical.inventory.core.version>
     <geotools.version>19.2</geotools.version>
     <poi.version>3.15</poi.version>
-    <spec.version.revision></spec.version.revision>
+    <spec.version.revision/>
     <java.version>1.8</java.version>
     <keycloak.version>8.0.1</keycloak.version>
     <clirr.skip>true</clirr.skip>
@@ -3134,7 +3134,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
-      <version>5.2.0.RELEASE</version>
+      <version>5.3.33</version>
     </dependency>
     <dependency>
       <groupId>org.bouncycastle</groupId>
