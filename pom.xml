@@ -38,9 +38,9 @@
     <physical.inventory.core.version>1.0.0.PRD</physical.inventory.core.version>
     <geotools.version>19.2</geotools.version>
     <poi.version>3.15</poi.version>
-    <spec.version.revision></spec.version.revision>
+    <spec.version.revision/>
     <java.version>1.8</java.version>
-    <keycloak.version>8.0.1</keycloak.version>
+    <keycloak.version>19.0.0</keycloak.version>
     <clirr.skip>true</clirr.skip>
     <product-base-plateform-service.version>3.0.14.PRD</product-base-plateform-service.version>
     <clirr-maven-plugin.version>2.8</clirr-maven-plugin.version>
@@ -93,7 +93,7 @@
     <icr.version>1.0.0.PRD</icr.version>
     <fttx.version>1.0.0.PRD</fttx.version>
     <checkstyle.conf>${project.basedir}/../conf/checkstyle.xml</checkstyle.conf>
-    <solr.version>4.0.0</solr.version>
+    <solr.version>9.0.0</solr.version>
     <product-geo-service.version>3.0.14.PRD</product-geo-service.version>
     <checklist.builder.version>1.0.0.PRD</checklist.builder.version>
     <swagger-annotations.version>1.5.21</swagger-annotations.version>
@@ -357,7 +357,7 @@
     <dependency>
       <groupId>org.janusgraph</groupId>
       <artifactId>janusgraph-core</artifactId>
-      <version>0.4.0</version>
+      <version>1.0.1-20231115-140735.93394de</version>
       <exclusions>
         <exclusion>
           <artifactId>metrics-core</artifactId>
@@ -1529,7 +1529,7 @@
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-firefox-driver</artifactId>
-      <version>2.33.0</version>
+      <version>3.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
@@ -1555,7 +1555,7 @@
     <dependency>
       <groupId>org.owasp.esapi</groupId>
       <artifactId>esapi</artifactId>
-      <version>2.2.0.0</version>
+      <version>2.2.3.0</version>
       <exclusions>
         <exclusion>
           <artifactId>log4j</artifactId>
@@ -1724,7 +1724,7 @@
     <dependency>
       <groupId>org.apache.drill.exec</groupId>
       <artifactId>drill-jdbc</artifactId>
-      <version>1.16.0</version>
+      <version>1.21.2</version>
       <exclusions>
         <exclusion>
           <artifactId>log4j-over-slf4j</artifactId>
@@ -1761,7 +1761,7 @@
     <dependency>
       <groupId>org.apache.xmlgraphics</groupId>
       <artifactId>fop</artifactId>
-      <version>0.94</version>
+      <version>2.4</version>
       <exclusions>
         <exclusion>
           <artifactId>batik-svg-dom</artifactId>
@@ -2416,7 +2416,7 @@
     <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
-      <version>2.7</version>
+      <version>2.14.0</version>
     </dependency>
     <dependency>
       <groupId>com.j2html</groupId>
@@ -2702,7 +2702,7 @@
     <dependency>
       <groupId>org.apache.tika</groupId>
       <artifactId>tika-parsers</artifactId>
-      <version>1.23</version>
+      <version>2.0.0</version>
       <exclusions>
         <exclusion>
           <artifactId>cxf-rt-rs-client</artifactId>
@@ -3599,7 +3599,7 @@
     <dependency>
       <groupId>org.apache.avro</groupId>
       <artifactId>avro</artifactId>
-      <version>1.8.1</version>
+      <version>1.11.4</version>
     </dependency>
     <dependency>
       <groupId>net.openhft</groupId>
