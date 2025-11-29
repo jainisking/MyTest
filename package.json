@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -51,7 +53,7 @@
     "easeljs": "0.8.2",
     "tweenjs": "0.6.2",
     "@turf/turf": "5.1.6",
-    "ng-draggable" : "1.0.0",
+    "ng-draggable": "1.0.0",
     "aes-js": "3.0.2",
     "pbkdf2": "3.0.2",
     "leaflet": "1.3.0",
@@ -73,7 +75,8 @@
     "angular-translate": "2.18.2",
     "angular-ui-router": "1.0.26",
     "moment-timezone": "0.5.31",
-    "ng-file-upload": "12.2.13"
-    
-  }
+    "ng-file-upload": "12.2.13",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
